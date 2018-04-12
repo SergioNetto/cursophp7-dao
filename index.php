@@ -36,9 +36,16 @@ echo $aluno;*/
 
 // Atualiza  o usuario
 
-$usuario = new Usuario();
+/*$usuario = new Usuario();
 $usuario->loadById(7);
 $usuario->update("professor", "#prof001");
+echo $usuario;*/
+
+$usuario = new Usuario();
+$usuario->loadById(5);
+$usuario->delete();
 echo $usuario;
+
+
 
  ?>
